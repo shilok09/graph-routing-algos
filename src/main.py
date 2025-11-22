@@ -130,7 +130,7 @@ def run_full_suite():
     mode = "large" if mode in ["l", "large"] else "quick"
     
     comparison = run_full_comparison(mode=mode)
-    comparison.save_report("docs/experimental_results.md")
+    comparison.save_report("results/result.txt")
 
 
 def benchmark_single():
