@@ -1,0 +1,48 @@
+SAMPLE GRAPH OUTPUT
+===================
+
+Input Graph: 5 vertices, 7 edges
+Source Vertex: 1
+
+DIJKSTRA'S ALGORITHM OUTPUT:
+===========================
+Shortest Paths from Source 1:
+Vertex     Distance
+------     --------
+1          0
+2          2
+3          3
+4          9
+5          6
+
+BELLMAN-FORD ALGORITHM OUTPUT:
+============================
+Shortest Paths from Source 1:
+Vertex     Distance
+------     --------
+1          0
+2          2
+3          3
+4          9
+5          6
+(No negative cycle detected)
+
+FLOYD-WARSHALL ALGORITHM OUTPUT:
+================================
+Distance Matrix (5x5):
+     1       2       3       4       5
+1:   0       2       3       9       6
+2:   INF     0       1       7       4
+3:   INF     INF     0       INF     3
+4:   INF     INF     INF     0       1
+5:   INF     2       INF     2       0
+
+JOHNSON'S ALGORITHM OUTPUT:
+==========================
+Distance Matrix (5x5):
+     1       2       3       4       5
+1:   0       2       3       9       6
+2:   INF     0       1       7       4
+3:   INF     INF     0       INF     3
+4:   INF     INF     INF     0       1
+5:   INF     2       INF     2       0
